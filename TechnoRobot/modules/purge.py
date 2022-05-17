@@ -2,7 +2,7 @@ import time
 from telethon import events
 
 from TechnoRobot import telethn
-from TechnoRobot.modules.helper_funcs.telethon.chatstatus import (
+from TechnoRobot.modules.helper_funcs.telethn.chatstatus import (
     can_delete_messages,
     user_is_admin,
 )
