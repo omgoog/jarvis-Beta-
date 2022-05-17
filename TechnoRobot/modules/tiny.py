@@ -1,8 +1,8 @@
 import os
 import cv2
 from PIL import Image
-from FlorinaRobot.events import register
-from FlorinaRobot import telethn as tbot
+from TechnoRobot.events import register
+from TechnoRobot import telethn as tbot
 
 
 @register(pattern="^/tiny ?(.*)")
@@ -13,7 +13,7 @@ async def _(event):
            return
     kontol = await event.reply("`Processing tiny...`")
     ik = await tbot.download_media(reply)
-    im1 = Image.open("FlorinaRobot/resources/ken.png")
+    im1 = Image.open("TechnoRobot/resources/ken.png")
     if ik.endswith(".tgs"):
         await tbot.download_media(reply, "ken.tgs")
         os.system("lottie_convert.py ken.tgs json.json")
