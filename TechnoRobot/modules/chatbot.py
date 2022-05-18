@@ -80,7 +80,7 @@ def remove_chat(update: Update, context: CallbackContext):
 
 def check_message(context: CallbackContext, message):
     reply_msg = message.reply_to_message
-    if message.text.lower() == "asuna":
+    if message.text.lower() == "Pikachu ":
         return True
     if reply_msg:
         if reply_msg.from_user.id == context.bot.get_me().id:
@@ -141,6 +141,15 @@ def list_chatbot_chats(update: Update, context: CallbackContext):
     update.effective_message.reply_text(text, parse_mode="HTML")
 
 
+__help__ = """
+*Chatbot*
+Techno  AI 3.0 IS THE ONLY AI SYSTEM WHICH CAN DETECT & REPLY UPTO 200 LANGUAGES
+  • /chatbot [ON/OFF]: Enables and disables AI Chat mode (EXCLUSIVE)
+  • /chatbot EN : Enables English only chatbot
+ 
+"""
+
+__mod_name__ = "ChatBot"
 
 ADD_CHAT_HANDLER = CommandHandler("addchat", add_chat)
 REMOVE_CHAT_HANDLER = CommandHandler("rmchat", remove_chat)
