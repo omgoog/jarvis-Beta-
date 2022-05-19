@@ -183,7 +183,7 @@
          "value": "True"
       },
       "KUKI_API": {
-      "description": "Make your bot talk using Intellivoid's chatbot API, get your key from https://coffeehouse.intellivoid.net/",
+      "description": "Make your bot talk using kuki chatbot TOKEN, get your TOKEN from https://t.me/Kukichatbot start this bot and type /token",
          "required": false,
          "value": ""
    },      
