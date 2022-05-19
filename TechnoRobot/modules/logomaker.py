@@ -17,7 +17,7 @@ from TechnoRobot import OWNER_ID
 from TechnoRobot.events import register
 from TechnoRobot import telethn
 from PIL import Image, ImageDraw, ImageFont
-from TechnoRobot import SUPPORT_GROUP
+from TechnoRobot import SUPPORT_CHAT
 
 LOGO_LINKS            = ["https://telegra.ph/file/d1838efdafce9fe611d0c.jpg",
                          "https://telegra.ph/file/c1ff2d5ec5e1b5bd1b200.jpg",
