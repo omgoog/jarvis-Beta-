@@ -23,6 +23,15 @@ For starters click on this button
 <p align="center"><a href="https://heroku.com/deploy?template=https://github.com/Team-techno/TechnoRobot"> <img src="https://img.shields.io/badge/Deploy%20To%20Techno-red?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
 
 
+### ᴍᴜsɪᴄ ᴅᴇᴘʟᴏʏᴍᴇɴᴛ 
+
+The easiest way to deploy this Bot
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/Team-techno/Yuki"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-green?style=for-the-badge&logo=deploy" width="220" height="38.45"/></a></p>
+ 
+
+
+
+
 ## Our Telegram Channel and Group
 
 * [Support](https://telegram.dog/Technobotsupport)
