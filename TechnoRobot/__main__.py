@@ -99,7 +99,7 @@ HELP_STRINGS = """
 `ʜɪ.. ɪ'ᴍ` Techno [🙋‍♀️](https://telegra.ph/file/3a786b98332c5ef9ce572.jpg)
 `ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴꜱ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴏᴄᴜᴍᴇɴᴛᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ꜱᴘᴇᴄɪꜰɪᴄ ᴍᴏᴅᴜʟᴇꜱ..`"""
 
-techno_IMG = "https://telegra.ph/file/329647a798cccb101aecf.jpg"
+techno_IMG = "https://telegra.ph/file/e7ee7ec05a191d9232904.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
  You can support the project via [Paypal](#) or by contacting @itsmelegend\
