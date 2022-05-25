@@ -74,9 +74,17 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-ʜᴇʟʟᴏ [💓](https://telegra.ph/file/3a786b98332c5ef9ce572.jpg), ɪᴍ Techno ᴀ ʜɪɢʜʏ ᴀᴅᴠᴀɴᴄᴇᴅ ʙᴏᴛ ᴡɪᴛʜ ʟᴏᴛꜱ ᴏꜰ ᴀᴍᴀᴢɪɴɢ ᴛᴏᴏʟꜱ.
-`ɪ'ᴍ ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ! ʜɪᴛ` /help   
-"""
+────「 [Techno](https://telegra.ph/file/0279bc457fd93a81dc24d.jpg) 」────
+ʜᴇʏ! {}
+ɪ ᴀᴍ Techno Robot ᴀɴ ᴀɴɪᴍᴇ ᴛʜᴇᴍᴇᴅ ᴀᴅᴠᴀɴᴄᴇ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ᴡɪᴛʜ ᴀ ʟᴏᴛ ᴏғ sᴘᴇᴄɪᴀʟɪᴛʏ.
+➖➖➖➖➖➖➖➖➖➖➖➖➖
+I have lots of handy features such as:
+‣ Warning system
+‣ Artificial intelligence
+‣ Flood control system
+‣ Note keeping system
+‣ Filters keeping system
+‣ Approvals and much more.
 
 buttons = [
     [
