@@ -85,6 +85,7 @@ I have lots of handy features such as:
 ‣ Note keeping system
 ‣ Filters keeping system
 ‣ Approvals and much more.
+"""
 
 buttons = [
     [
