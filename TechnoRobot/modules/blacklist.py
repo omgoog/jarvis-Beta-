@@ -6,18 +6,18 @@ from telegram.error import BadRequest
 from telegram.ext import CommandHandler, MessageHandler, Filters, run_async
 from telegram.utils.helpers import mention_html
 
-import TechnoRobot.modules.sql.blacklist_sql as sql
-from TechnoRobot import dispatcher, LOGGER
-from TechnoRobot.modules.disable import DisableAbleCommandHandler
-from TechnoRobot.modules.helper_funcs.chat_status import user_admin, user_not_admin
-from TechnoRobot.modules.helper_funcs.extraction import extract_text
-from TechnoRobot.modules.helper_funcs.misc import split_message
-from TechnoRobot.modules.log_channel import loggable
-from TechnoRobot.modules.warns import warn
-from TechnoRobot.modules.helper_funcs.string_handling import extract_time
-from TechnoRobot.modules.connection import connected
-from TechnoRobot.modules.sql.approve_sql import is_approved
-from TechnoRobot.modules.helper_funcs.alternate import send_message, typing_action
+import JarvisRobot.modules.sql.blacklist_sql as sql
+from JarvisRobot import dispatcher, LOGGER
+from JarvisRobot.modules.disable import DisableAbleCommandHandler
+from JarvisRobot.modules.helper_funcs.chat_status import user_admin, user_not_admin
+from JarvisRobot.modules.helper_funcs.extraction import extract_text
+from JarvisRobot.modules.helper_funcs.misc import split_message
+from JarvisRobot.modules.log_channel import loggable
+from JarvisRobot.modules.warns import warn
+from JarvisRobot.modules.helper_funcs.string_handling import extract_time
+from JarvisRobot.modules.connection import connected
+from JarvisRobot.modules.sql.approve_sql import is_approved
+from JarvisRobot.modules.helper_funcs.alternate import send_message, typing_action
 
 BLACKLIST_GROUP = 11
 
