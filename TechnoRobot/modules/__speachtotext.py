@@ -1,4 +1,4 @@
-from TechnoRobot import telethn as tbot
+from JarvisRobot import telethn as tbot
 import os
 import urllib.request
 from datetime import datetime
@@ -11,8 +11,8 @@ from telethon.tl import functions
 from telethon.tl import types
 from telethon.tl.types import *
 
-from TechnoRobot import *
-from TechnoRobot.events import register
+from JarvisRobot import *
+from JarvisRobot.events import register
 
 
 async def is_register_admin(chat, user):
