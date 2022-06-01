@@ -12,9 +12,9 @@ from tswift import Song
 from youtube_dl import YoutubeDL
 from youtubesearchpython import SearchVideos
 
-from TechnoRobot.conf import get_str_key
-from TechnoRobot.pyrogramee.pluginshelper import get_text, progress
-from TechnoRobot import pbot
+from JarvisRobot.conf import get_str_key
+from JarvisRobot.pyrogramee.pluginshelper import get_text, progress
+from JarvisRobot import pbot
 
 GENIUS = get_str_key("GENIUS_API_TOKEN", None)
 
