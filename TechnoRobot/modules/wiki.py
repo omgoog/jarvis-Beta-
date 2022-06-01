@@ -1,6 +1,6 @@
 import wikipedia
-from TechnoRobot import dispatcher
-from TechnoRobot.modules.disable import DisableAbleCommandHandler
+from JarvisRobot import dispatcher
+from JarvisRobot.modules.disable import DisableAbleCommandHandler
 from telegram import ParseMode, Update
 from telegram.ext import CallbackContext, run_async
 from wikipedia.exceptions import DisambiguationError, PageError
