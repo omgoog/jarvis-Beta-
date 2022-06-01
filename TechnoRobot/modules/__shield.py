@@ -25,21 +25,21 @@ from google_trans_new import google_translator
 from telethon import events
 from telethon.tl.types import ChatBannedRights
 
-from TechnoRobot import BOT_ID
-from TechnoRobot.conf import get_int_key, get_str_key
+from JarvisRobot import BOT_ID
+from JarvisRobot.conf import get_int_key, get_str_key
 
-# from TechnoRobot.db.mongo_helpers.nsfw_guard import add_chat, get_all_nsfw_chats, is_chat_in_db, rm_chat
-from TechnoRobot.pyrogramee.telethonbasics import is_admin
-from TechnoRobot.events import register
-from TechnoRobot import MONGO_DB_URI 
+# from JarvisRobot.db.mongo_helpers.nsfw_guard import add_chat, get_all_nsfw_chats, is_chat_in_db, rm_chat
+from JarvisRobot.pyrogramee.telethonbasics import is_admin
+from JarvisRobot.events import register
+from JarvisRobot import MONGO_DB_URI 
 from pymongo import MongoClient
-from TechnoRobot.modules.sql_extended.nsfw_watch_sql import (
+from JarvisRobot.modules.sql_extended.nsfw_watch_sql import (
     add_nsfwatch,
     get_all_nsfw_enabled_chat,
     is_nsfwatch_indb,
     rmnsfwatch,
 )
-from TechnoRobot import telethn as tbot
+from JarvisRobot import telethn as tbot
 
 translator = google_translator()
 MUTE_RIGHTS = ChatBannedRights(until_date=None, send_messages=False)
