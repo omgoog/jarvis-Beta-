@@ -53,9 +53,9 @@ url = "https://acobot-brainshop-ai-v1.p.rapidapi.com/get"
 from google_trans_new import google_translator
 from pyrogram import filters
 
-from TechnoRobot.helper_extra.aichat import add_chat, get_session, remove_chat
-from TechnoRobot.pyrogramee.pluginshelper import admins_only, edit_or_reply
-from TechnoRobot import pbot as Amelia
+from JarvisRobot.helper_extra.aichat import add_chat, get_session, remove_chat
+from JarvisRobot.pyrogramee.pluginshelper import admins_only, edit_or_reply
+from JarvisRobot import pbot as Amelia
 
 translator = google_translator()
 
