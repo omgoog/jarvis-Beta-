@@ -1,6 +1,6 @@
-from TechnoRobot.modules.helper_funcs.chat_status import user_admin
-from TechnoRobot.modules.disable import DisableAbleCommandHandler
-from TechnoRobot import dispatcher
+from JarvisRobot.modules.helper_funcs.chat_status import user_admin
+from JarvisRobot.modules.disable import DisableAbleCommandHandler
+from JarvisRobot import dispatcher
 
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup
 from telegram import ParseMode, Update
