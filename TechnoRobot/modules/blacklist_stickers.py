@@ -1,17 +1,17 @@
 import html
 from typing import Optional
 
-import TechnoRobot.modules.sql.blsticker_sql as sql
-from TechnoRobot import LOGGER, dispatcher
-from TechnoRobot.modules.connection import connected
-from TechnoRobot.modules.disable import DisableAbleCommandHandler
-from TechnoRobot.modules.helper_funcs.alternate import send_message
-from TechnoRobot.modules.helper_funcs.chat_status import user_admin, user_not_admin
-from TechnoRobot.modules.helper_funcs.misc import split_message
-from TechnoRobot.modules.helper_funcs.string_handling import extract_time
+import JarvisRobot.modules.sql.blsticker_sql as sql
+from JarvisRobot import LOGGER, dispatcher
+from JarvisRobot.modules.connection import connected
+from JarvisRobot.modules.disable import DisableAbleCommandHandler
+from JarvisRobot.modules.helper_funcs.alternate import send_message
+from JarvisRobot.modules.helper_funcs.chat_status import user_admin, user_not_admin
+from JarvisRobot.modules.helper_funcs.misc import split_message
+from JarvisRobot.modules.helper_funcs.string_handling import extract_time
 
-from TechnoRobot.modules.log_channel import loggable
-from TechnoRobot.modules.warns import warn
+from JarvisRobot.modules.log_channel import loggable
+from JarvisRobot.modules.warns import warn
 from telegram import Chat, Message, ParseMode, Update, User, ChatPermissions
 from telegram.error import BadRequest
 from telegram.ext import CallbackContext, CommandHandler, Filters, MessageHandler
