@@ -1,4 +1,4 @@
-from TechnoRobot import LOAD, LOGGER, NO_LOAD
+from JarvisRobot import LOAD, LOGGER, NO_LOAD
 
 
 def __list_all_modules():
