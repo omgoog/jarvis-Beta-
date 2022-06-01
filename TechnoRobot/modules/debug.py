@@ -5,8 +5,8 @@ from telethon import events
 from telegram import Update
 from telegram.ext import CallbackContext, CommandHandler, run_async
 
-from TechnoRobot import telethn, dispatcher
-from TechnoRobot.modules.helper_funcs.chat_status import dev_plus
+from JarvisRobot import telethn, dispatcher
+from JarvisRobot.modules.helper_funcs.chat_status import dev_plus
 
 DEBUG_MODE = False
 
