@@ -1,8 +1,8 @@
 # ©itsmelegend
 import aiohttp
 from pyrogram import filters
-from TechnoRobot import pbot
-from TechnoRobot.pyrogramee.errors import capture_err
+from JarvisRobot import pbot
+from JarvisRobot.pyrogramee.errors import capture_err
 
 
 __mod_name__ = "Github"
