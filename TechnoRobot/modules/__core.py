@@ -1,15 +1,15 @@
-from TechnoRobot import telethn as tbot
-from TechnoRobot.events import register
+from JarvisRobot import telethn as tbot
+from JarvisRobot.events import register
 import os
 import asyncio
 import os
 import time
 from datetime import datetime
-from TechnoRobot import OWNER_ID
-from TechnoRobot import TEMP_DOWNLOAD_DIRECTORY as path
-from TechnoRobot import TEMP_DOWNLOAD_DIRECTORY
+from JarvisRobot import OWNER_ID
+from JarvisRobot import TEMP_DOWNLOAD_DIRECTORY as path
+from JarvisRobot import TEMP_DOWNLOAD_DIRECTORY
 from datetime import datetime
-water = './TechnoRobot/resources/amelia.jpg'
+water = './JarvisRobot/resources/amelia.jpg'
 client = tbot
 
 @register(pattern=r"^/send ?(.*)")
@@ -21,7 +21,7 @@ async def Prof(event):
     thumb = water
     message_id = event.message.id
     input_str = event.pattern_match.group(1)
-    the_plugin_file = "./TechnoRobot/modules/{}.py".format(input_str)
+    the_plugin_file = "./JarvisRobot/modules/{}.py".format(input_str)
     if os.path.exists(the_plugin_file):
      message_id = event.message.id
      await event.client.send_file(
@@ -36,7 +36,7 @@ async def Prof(event):
         await event.reply("No File Found!")
 
 
-from TechnoRobot.events import load_module
+from JarvisRobot.events import load_module
 import asyncio
 import os
 from datetime import datetime
