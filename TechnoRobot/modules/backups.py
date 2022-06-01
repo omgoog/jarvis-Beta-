@@ -5,23 +5,23 @@ from telegram import ParseMode, Message
 from telegram.error import BadRequest
 from telegram.ext import CommandHandler, run_async
 
-import TechnoRobot.modules.sql.notes_sql as sql
-from TechnoRobot import dispatcher, LOGGER, OWNER_ID, JOIN_LOGGER, SUPPORT_CHAT
-from TechnoRobot.__main__ import DATA_IMPORT
-from TechnoRobot.modules.helper_funcs.chat_status import user_admin
-from TechnoRobot.modules.helper_funcs.alternate import typing_action
+import JarvisRobot.modules.sql.notes_sql as sql
+from JarvisRobot import dispatcher, LOGGER, OWNER_ID, JOIN_LOGGER, SUPPORT_CHAT
+from JarvisRobot.__main__ import DATA_IMPORT
+from JarvisRobot.modules.helper_funcs.chat_status import user_admin
+from JarvisRobot.modules.helper_funcs.alternate import typing_action
 
-# from TechnoRobot.modules.rules import get_rules
-import TechnoRobot.modules.sql.rules_sql as rulessql
+# from JarvisRobot.modules.rules import get_rules
+import JarvisRobot.modules.sql.rules_sql as rulessql
 
-# from TechnoRobot.modules.sql import warns_sql as warnssql
-import TechnoRobot.modules.sql.blacklist_sql as blacklistsql
-from TechnoRobot.modules.sql import disable_sql as disabledsql
+# from JarvisRobot.modules.sql import warns_sql as warnssql
+import JarvisRobot.modules.sql.blacklist_sql as blacklistsql
+from JarvisRobot.modules.sql import disable_sql as disabledsql
 
-# from TechnoRobot.modules.sql import cust_filters_sql as filtersql
-# import TechnoRobot.modules.sql.welcome_sql as welcsql
-import TechnoRobot.modules.sql.locks_sql as locksql
-from TechnoRobot.modules.connection import connected
+# from JarvisRobot.modules.sql import cust_filters_sql as filtersql
+# import JarvisRobot.modules.sql.welcome_sql as welcsql
+import JarvisRobot.modules.sql.locks_sql as locksql
+from JarvisRobot.modules.connection import connected
 
 
 @run_async
