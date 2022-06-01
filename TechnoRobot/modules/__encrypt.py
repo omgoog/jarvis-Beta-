@@ -1,6 +1,6 @@
-from TechnoRobot import telethn as tbot
+from JarvisRobot import telethn as tbot
 import os
-from TechnoRobot.events import register
+from JarvisRobot.events import register
 import secureme
 
 @register(pattern="^/encrypt ?(.*)")
