@@ -1,12 +1,12 @@
 import random, html
 
-from TechnoRobot import dispatcher
-from TechnoRobot.modules.disable import (
+from JarvisRobot import dispatcher
+from JarvisRobot.modules.disable import (
     DisableAbleCommandHandler,
     DisableAbleMessageHandler,
 )
-from TechnoRobot.modules.sql import afk_sql as sql
-from TechnoRobot.modules.users import get_user_id
+from JarvisRobot.modules.sql import afk_sql as sql
+from JarvisRobot.modules.users import get_user_id
 from telegram import MessageEntity, Update
 from telegram.error import BadRequest
 from telegram.ext import CallbackContext, Filters, MessageHandler, run_async
