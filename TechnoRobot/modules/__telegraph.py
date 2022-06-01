@@ -1,5 +1,5 @@
-from TechnoRobot.events import register
-from TechnoRobot import telethn as tbot
+from JarvisRobot.events import register
+from JarvisRobot import telethn as tbot
 TMP_DOWNLOAD_DIRECTORY = "./"
 from telethon import events
 import os
