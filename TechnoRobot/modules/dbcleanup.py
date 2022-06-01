@@ -1,9 +1,9 @@
 from time import sleep
 
-import TechnoRobot.modules.sql.global_bans_sql as gban_sql
-import TechnoRobot.modules.sql.users_sql as user_sql
-from TechnoRobot import DEV_USERS, OWNER_ID, dispatcher
-from TechnoRobot.modules.helper_funcs.chat_status import dev_plus
+import JarvisRobot.modules.sql.global_bans_sql as gban_sql
+import JarvisRobot.modules.sql.users_sql as user_sql
+from JarvisRobot import DEV_USERS, OWNER_ID, dispatcher
+from JarvisRobot.modules.helper_funcs.chat_status import dev_plus
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, Update
 from telegram.error import BadRequest, Unauthorized
 from telegram.ext import (
