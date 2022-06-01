@@ -6,8 +6,8 @@ import requests
 import wget
 from pyrogram import filters
 
-from TechnoRobot import pbot as Jebot
-from TechnoRobot.pyrogramee.dark import get_arg
+from JarvisRobot import pbot as Jebot
+from JarvisRobot.pyrogramee.dark import get_arg
 
 
 @Jebot.on_message(filters.command("saavn"))
@@ -43,7 +43,7 @@ import os
 import aiofiles
 import aiohttp
 from pyrogram import filters
-from TechnoRobot import pbot as AMELIA
+from JarvisRobot import pbot as AMELIA
 
 ARQ = "https://thearq.tech/"
 
