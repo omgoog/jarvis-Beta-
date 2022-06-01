@@ -6,8 +6,8 @@ import time
 import uuid
 from io import BytesIO
 
-import TechnoRobot.modules.sql.feds_sql as sql
-from TechnoRobot import (
+import JarvisRobot.modules.sql.feds_sql as sql
+from JarvisRobot import (
     EVENT_LOGS,
     LOGGER,
     SUPPORT_CHAT,
@@ -17,15 +17,15 @@ from TechnoRobot import (
     WOLVES,
     dispatcher,
 )
-from TechnoRobot.modules.disable import DisableAbleCommandHandler
-from TechnoRobot.modules.helper_funcs.alternate import send_message
-from TechnoRobot.modules.helper_funcs.chat_status import is_user_admin
-from TechnoRobot.modules.helper_funcs.extraction import (
+from JarvisRobot.modules.disable import DisableAbleCommandHandler
+from JarvisRobot.modules.helper_funcs.alternate import send_message
+from JarvisRobot.modules.helper_funcs.chat_status import is_user_admin
+from JarvisRobot.modules.helper_funcs.extraction import (
     extract_unt_fedban,
     extract_user,
     extract_user_fban,
 )
-from TechnoRobot.modules.helper_funcs.string_handling import markdown_parser
+from JarvisRobot.modules.helper_funcs.string_handling import markdown_parser
 from telegram import (
     InlineKeyboardButton,
     InlineKeyboardMarkup,
