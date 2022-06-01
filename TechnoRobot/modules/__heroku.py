@@ -5,8 +5,8 @@ import os
 import heroku3
 import requests
 
-from TechnoRobot import telethn as borg, HEROKU_APP_NAME, HEROKU_API_KEY, OWNER_ID
-from TechnoRobot.events import register
+from JarvisRobot import telethn as borg, HEROKU_APP_NAME, HEROKU_API_KEY, OWNER_ID
+from JarvisRobot.events import register
 
 heroku_api = "https://api.heroku.com"
 Heroku = heroku3.from_key(HEROKU_API_KEY)
