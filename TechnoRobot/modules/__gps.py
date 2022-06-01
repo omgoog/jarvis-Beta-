@@ -1,8 +1,8 @@
 import os
-from TechnoRobot import telethn as tbot
+from JarvisRobot import telethn as tbot
 from geopy.geocoders import Nominatim
-from TechnoRobot.events import register
-from TechnoRobot import *
+from JarvisRobot.events import register
+from JarvisRobot import *
 from telethon import *
 from telethon.tl import *
 
