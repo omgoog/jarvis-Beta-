@@ -1,7 +1,7 @@
 # Module to blacklist users and prevent them from using commands by @TheRealPhoenix
 import html
-import TechnoRobot.modules.sql.blacklistusers_sql as sql
-from TechnoRobot import (
+import JarvisRobot.modules.sql.blacklistusers_sql as sql
+from JarvisRobot import (
     DEV_USERS,
     OWNER_ID,
     DRAGONS,
@@ -10,12 +10,12 @@ from TechnoRobot import (
     WOLVES,
     dispatcher,
 )
-from TechnoRobot.modules.helper_funcs.chat_status import dev_plus
-from TechnoRobot.modules.helper_funcs.extraction import (
+from JarvisRobot.modules.helper_funcs.chat_status import dev_plus
+from JarvisRobot.modules.helper_funcs.extraction import (
     extract_user,
     extract_user_and_text,
 )
-from TechnoRobot.modules.log_channel import gloggable
+from JarvisRobot.modules.log_channel import gloggable
 from telegram import ParseMode, Update
 from telegram.error import BadRequest
 from telegram.ext import CallbackContext, CommandHandler, run_async
