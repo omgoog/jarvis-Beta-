@@ -1,9 +1,9 @@
 import os
 from time import sleep
 
-from TechnoRobot import OWNER_ID, dispatcher
-from TechnoRobot.modules.helper_funcs.extraction import extract_user
-from TechnoRobot.modules.sql.users_sql import get_user_com_chats
+from JarvisRobot import OWNER_ID, dispatcher
+from JarvisRobot.modules.helper_funcs.extraction import extract_user
+from JarvisRobot.modules.sql.users_sql import get_user_com_chats
 from telegram import Update
 from telegram.error import BadRequest, RetryAfter, Unauthorized
 from telegram.ext import CallbackContext, CommandHandler, Filters
