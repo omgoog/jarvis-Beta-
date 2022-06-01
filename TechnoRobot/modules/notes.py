@@ -3,14 +3,14 @@ from io import BytesIO
 import random
 from typing import Optional
 
-import TechnoRobot.modules.sql.notes_sql as sql
-from TechnoRobot import LOGGER, JOIN_LOGGER, SUPPORT_CHAT, dispatcher, DRAGONS
-from TechnoRobot.modules.disable import DisableAbleCommandHandler
-from TechnoRobot.modules.helper_funcs.handlers import MessageHandlerChecker
-from TechnoRobot.modules.helper_funcs.chat_status import user_admin, connection_status
-from TechnoRobot.modules.helper_funcs.misc import build_keyboard, revert_buttons
-from TechnoRobot.modules.helper_funcs.msg_types import get_note_type
-from TechnoRobot.modules.helper_funcs.string_handling import (
+import JarvisRobot.modules.sql.notes_sql as sql
+from JarvisRobot import LOGGER, JOIN_LOGGER, SUPPORT_CHAT, dispatcher, DRAGONS
+from JarvisRobot.modules.disable import DisableAbleCommandHandler
+from JarvisRobot.modules.helper_funcs.handlers import MessageHandlerChecker
+from JarvisRobot.modules.helper_funcs.chat_status import user_admin, connection_status
+from JarvisRobot.modules.helper_funcs.misc import build_keyboard, revert_buttons
+from JarvisRobot.modules.helper_funcs.msg_types import get_note_type
+from JarvisRobot.modules.helper_funcs.string_handling import (
     escape_invalid_curly_brackets,
 )
 from telegram import (
