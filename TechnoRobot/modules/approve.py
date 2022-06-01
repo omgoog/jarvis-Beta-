@@ -1,11 +1,11 @@
 import html
-from TechnoRobot.modules.disable import DisableAbleCommandHandler
-from TechnoRobot import dispatcher, DRAGONS
-from TechnoRobot.modules.helper_funcs.extraction import extract_user
+from JarvisRobot.modules.disable import DisableAbleCommandHandler
+from JarvisRobot import dispatcher, DRAGONS
+from JarvisRobot.modules.helper_funcs.extraction import extract_user
 from telegram.ext import CallbackContext, CallbackQueryHandler, Filters, run_async
-import TechnoRobot.modules.sql.approve_sql as sql
-from TechnoRobot.modules.helper_funcs.chat_status import user_admin
-from TechnoRobot.modules.log_channel import loggable
+import JarvisRobot.modules.sql.approve_sql as sql
+from JarvisRobot.modules.helper_funcs.chat_status import user_admin
+from JarvisRobot.modules.log_channel import loggable
 from telegram import ParseMode, InlineKeyboardMarkup, InlineKeyboardButton, Update
 from telegram.utils.helpers import mention_html
 from telegram.error import BadRequest
