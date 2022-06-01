@@ -14,10 +14,10 @@ from telegram.utils.helpers import mention_html
 from typing import Optional, List
 from telegram import TelegramError
 
-import TechnoRobot.modules.sql.users_sql as sql
-from TechnoRobot.modules.disable import DisableAbleCommandHandler
-from TechnoRobot.modules.helper_funcs.filters import CustomFilters
-from TechnoRobot import (
+import JarvisRobot.modules.sql.users_sql as sql
+from JarvisRobot.modules.disable import DisableAbleCommandHandler
+from JarvisRobot.modules.helper_funcs.filters import CustomFilters
+from JarvisRobot import (
     DEV_USERS,
     LOGGER,
     OWNER_ID,
@@ -27,7 +27,7 @@ from TechnoRobot import (
     WOLVES,
     dispatcher,
 )
-from TechnoRobot.modules.helper_funcs.chat_status import (
+from JarvisRobot.modules.helper_funcs.chat_status import (
     user_admin_no_reply,
     bot_admin,
     can_restrict,
@@ -40,9 +40,9 @@ from TechnoRobot.modules.helper_funcs.chat_status import (
     can_delete,
     dev_plus,
 )
-from TechnoRobot.modules.helper_funcs.extraction import extract_user_and_text
-from TechnoRobot.modules.helper_funcs.string_handling import extract_time
-from TechnoRobot.modules.log_channel import gloggable, loggable
+from JarvisRobot.modules.helper_funcs.extraction import extract_user_and_text
+from JarvisRobot.modules.helper_funcs.string_handling import extract_time
+from JarvisRobot.modules.log_channel import gloggable, loggable
 
 
 @connection_status
