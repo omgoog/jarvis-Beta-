@@ -1,11 +1,11 @@
-from TechnoRobot import telethn as tbot
+from JarvisRobot import telethn as tbot
 import os
 import re
 import bs4
 import requests
 from telethon import types
 from telethon.tl import functions
-from TechnoRobot.events import register
+from JarvisRobot.events import register
 
 langi = "en"
 
