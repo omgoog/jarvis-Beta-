@@ -1,7 +1,7 @@
 import speedtest
-from TechnoRobot import DEV_USERS, dispatcher
-from TechnoRobot.modules.disable import DisableAbleCommandHandler
-from TechnoRobot.modules.helper_funcs.chat_status import dev_plus
+from JarvisRobot import DEV_USERS, dispatcher
+from JarvisRobot.modules.disable import DisableAbleCommandHandler
+from JarvisRobot.modules.helper_funcs.chat_status import dev_plus
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, ParseMode, Update
 from telegram.ext import CallbackContext, CallbackQueryHandler, run_async
 
