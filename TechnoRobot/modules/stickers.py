@@ -14,10 +14,10 @@ from telegram import TelegramError, Update
 from telegram.ext import run_async, CallbackContext
 from telegram.utils.helpers import mention_html
 
-from TechnoRobot import dispatcher
-from TechnoRobot.modules.disable import DisableAbleCommandHandler
-from TechnoRobot.events import register as Cutiepii
-from TechnoRobot import telethn as bot
+from JarvisRobot import dispatcher
+from JarvisRobot.modules.disable import DisableAbleCommandHandler
+from JarvisRobot.events import register as Cutiepii
+from JarvisRobot import telethn as bot
 
 combot_stickers_url = "https://combot.org/telegram/stickers?q="
 
@@ -525,7 +525,7 @@ async def drawText(image_path, text):
     if os.name == "nt":
         fnt = "ariel.ttf"
     else:
-        fnt = "./TechnoRobot/resources/ArmWrestler.ttf"
+        fnt = "./JarvisRobot/resources/ArmWrestler.ttf"
     m_font = ImageFont.truetype(fnt, int((70 / 640) * i_width))
     if ";" in text:
         upper_text, lower_text = text.split(";")
