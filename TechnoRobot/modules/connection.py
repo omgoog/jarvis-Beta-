@@ -5,10 +5,10 @@ from telegram import ParseMode, InlineKeyboardMarkup, InlineKeyboardButton, Upda
 from telegram.error import BadRequest, Unauthorized
 from telegram.ext import CommandHandler, CallbackQueryHandler, run_async
 
-import TechnoRobot.modules.sql.connection_sql as sql
-from TechnoRobot import dispatcher, DRAGONS, DEV_USERS
-from TechnoRobot.modules.helper_funcs import chat_status
-from TechnoRobot.modules.helper_funcs.alternate import send_message, typing_action
+import JarvisRobot.modules.sql.connection_sql as sql
+from JarvisRobot import dispatcher, DRAGONS, DEV_USERS
+from JarvisRobot.modules.helper_funcs import chat_status
+from JarvisRobot.modules.helper_funcs.alternate import send_message, typing_action
 
 user_admin = chat_status.user_admin
 
