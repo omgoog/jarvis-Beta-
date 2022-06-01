@@ -3,7 +3,7 @@ import re
 import os
 import html
 import requests
-import TechnoRobot.modules.sql.kuki_sql as sql
+import JarvisRobot.modules.sql.kuki_sql as sql
 
 from time import sleep
 from telegram import ParseMode
@@ -15,10 +15,10 @@ from telegram.ext import (CallbackContext, CallbackQueryHandler, CommandHandler,
 from telegram.error import BadRequest, RetryAfter, Unauthorized
 from telegram.utils.helpers import mention_html, mention_markdown, escape_markdown
 
-from TechnoRobot.modules.helper_funcs.filters import CustomFilters
-from TechnoRobot.modules.helper_funcs.chat_status import user_admin, user_admin_no_reply
-from TechnoRobot import dispatcher, updater, SUPPORT_CHAT
-from TechnoRobot.modules.log_channel import gloggable
+from JarvisRobot.modules.helper_funcs.filters import CustomFilters
+from JarvisRobot.modules.helper_funcs.chat_status import user_admin, user_admin_no_reply
+from JarvisRobot import dispatcher, updater, SUPPORT_CHAT
+from JarvisRobot.modules.log_channel import gloggable
 
 
 KUKI_API = os.environ.get('KUKI_API')
