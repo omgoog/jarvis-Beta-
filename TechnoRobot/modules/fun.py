@@ -2,11 +2,11 @@ import html
 import random
 import time
 
-import TechnoRobot.modules.fun_strings as fun_strings
-from TechnoRobot import dispatcher
-from TechnoRobot.modules.disable import DisableAbleCommandHandler
-from TechnoRobot.modules.helper_funcs.chat_status import is_user_admin
-from TechnoRobot.modules.helper_funcs.extraction import extract_user
+import JarvisRobot.modules.fun_strings as fun_strings
+from JarvisRobot import dispatcher
+from JarvisRobot.modules.disable import DisableAbleCommandHandler
+from JarvisRobot.modules.helper_funcs.chat_status import is_user_admin
+from JarvisRobot.modules.helper_funcs.extraction import extract_user
 from telegram import ChatPermissions, ParseMode, Update
 from telegram.error import BadRequest
 from telegram.ext import CallbackContext, run_async
