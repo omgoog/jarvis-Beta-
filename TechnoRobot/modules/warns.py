@@ -3,9 +3,9 @@ import re
 from typing import Optional
 
 import telegram
-from TechnoRobot import TIGERS, WOLVES, dispatcher
-from TechnoRobot.modules.disable import DisableAbleCommandHandler
-from TechnoRobot.modules.helper_funcs.chat_status import (
+from JarvisRobot import TIGERS, WOLVES, dispatcher
+from JarvisRobot.modules.disable import DisableAbleCommandHandler
+from JarvisRobot.modules.helper_funcs.chat_status import (
     bot_admin,
     can_restrict,
     is_user_admin,
@@ -14,16 +14,16 @@ from TechnoRobot.modules.helper_funcs.chat_status import (
     user_admin_no_reply,
     can_delete,
 )
-from TechnoRobot.modules.helper_funcs.extraction import (
+from JarvisRobot.modules.helper_funcs.extraction import (
     extract_text,
     extract_user,
     extract_user_and_text,
 )
-from TechnoRobot.modules.helper_funcs.filters import CustomFilters
-from TechnoRobot.modules.helper_funcs.misc import split_message
-from TechnoRobot.modules.helper_funcs.string_handling import split_quotes
-from TechnoRobot.modules.log_channel import loggable
-from TechnoRobot.modules.sql import warns_sql as sql
+from JarvisRobot.modules.helper_funcs.filters import CustomFilters
+from JarvisRobot.modules.helper_funcs.misc import split_message
+from JarvisRobot.modules.helper_funcs.string_handling import split_quotes
+from JarvisRobot.modules.log_channel import loggable
+from JarvisRobot.modules.sql import warns_sql as sql
 from telegram import (
     CallbackQuery,
     Chat,
@@ -45,7 +45,7 @@ from telegram.ext import (
     run_async,
 )
 from telegram.utils.helpers import mention_html
-from TechnoRobot.modules.sql.approve_sql import is_approved
+from JarvisRobot.modules.sql.approve_sql import is_approved
 
 WARN_HANDLER_GROUP = 9
 CURRENT_WARNING_FILTER_STRING = "<b>Current warning filters in this chat:</b>\n"
