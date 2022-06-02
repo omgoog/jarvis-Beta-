@@ -1,6 +1,6 @@
-from TechnoRobot import pbot as app
-from TechnoRobot.utils.errors import capture_err
-from TechnoRobot.utils.dbfunc import get_couple, save_couple
+from JarvisRobot import pbot as app
+from JarvisRobot.utils.errors import capture_err
+from JarvisRobot.utils.dbfunc import get_couple, save_couple
 from pyrogram import filters
 import random
 from datetime import datetime
