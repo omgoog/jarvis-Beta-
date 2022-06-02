@@ -1,5 +1,5 @@
 from envparse import env
-from TechnoRobot import LOGGER
+from JarvisRobot import LOGGER
 
 DEFAULTS = {
     "LOAD_MODULES": True,
