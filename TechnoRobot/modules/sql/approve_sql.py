@@ -2,7 +2,7 @@ import threading
 
 from sqlalchemy import Column, String, UnicodeText, BigInteger, func, distinct
 
-from TechnoRobot.modules.sql import BASE, SESSION
+from JarvisRobot.modules.sql import BASE, SESSION
 
 
 class Approvals(BASE):
