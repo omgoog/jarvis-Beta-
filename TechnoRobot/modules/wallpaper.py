@@ -1,8 +1,8 @@
 from random import randint
 
 import requests as r
-from TechnoRobot import SUPPORT_CHAT, WALL_API, dispatcher
-from TechnoRobot.modules.disable import DisableAbleCommandHandler
+from JarvisRobot import SUPPORT_CHAT, WALL_API, dispatcher
+from JarvisRobot.modules.disable import DisableAbleCommandHandler
 from telegram import Update
 from telegram.ext import CallbackContext, run_async
 
