@@ -4,7 +4,7 @@ import re
 from sys import argv
 from typing import Optional
 
-from TechnoRobot import (
+from JarvisRobot import (
     ALLOW_EXCL,
     CERT_PATH,
     DONATION_LINK,
@@ -25,9 +25,9 @@ from TechnoRobot import (
 
 # needed to dynamically load modules
 # NOTE: Module order is not guaranteed, specify that in the config file!
-from TechnoRobot.modules import ALL_MODULES
-from TechnoRobot.modules.helper_funcs.chat_status import is_user_admin
-from TechnoRobot.modules.helper_funcs.misc import paginate_modules
+from JarvisRobot.modules import ALL_MODULES
+from JarvisRobot.modules.helper_funcs.chat_status import is_user_admin
+from JarvisRobot.modules.helper_funcs.misc import paginate_modules
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, ParseMode, Update
 from telegram.error import (
     BadRequest,
@@ -126,7 +126,7 @@ CHAT_SETTINGS = {}
 USER_SETTINGS = {}
 
 for module_name in ALL_MODULES:
-    imported_module = importlib.import_module("TechnoRobot.modules." + module_name)
+    imported_module = importlib.import_module("JarvisRobot.modules." + module_name)
     if not hasattr(imported_module, "__mod_name__"):
         imported_module.__mod_name__ = imported_module.__name__
 
