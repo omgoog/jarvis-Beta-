@@ -1,9 +1,10 @@
+# @lx575 
 import random
 import threading
 from typing import Union
 
-from TechnoRobot.modules.helper_funcs.msg_types import Types
-from TechnoRobot.modules.sql import BASE, SESSION
+from JarvisRobot.modules.helper_funcs.msg_types import Types
+from JarvisRobot.modules.sql import BASE, SESSION
 from sqlalchemy import BigInteger, Boolean, Column, Integer, String, UnicodeText
 
 DEFAULT_WELCOME = "Hey {first}, how are you?"
