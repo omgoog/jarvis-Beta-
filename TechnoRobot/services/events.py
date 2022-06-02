@@ -4,8 +4,8 @@ from pathlib import Path
 
 from telethon import events
 
-from TechnoRobot.services.mongo import mongodb as db
-from TechnoRobot.services.telethon import tbot
+from JarvisRobot.services.mongo import mongodb as db
+from JarvisRobot.services.telethon import tbot
 
 gbanned = db.gban
 CMD_LIST = {}
