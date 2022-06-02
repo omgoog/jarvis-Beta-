@@ -1,4 +1,4 @@
-# @lx575 & @x-kunal.                                            # 🫂
+# @lx575 & @x-kunal.                                            
 import random
 import threading
 from typing import Union
