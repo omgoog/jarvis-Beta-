@@ -1,5 +1,5 @@
-from TechnoRobot.modules.helper_funcs.telethn import IMMUNE_USERS, telethn
-from TechnoRobot import DRAGONS
+from JarvisRobot.modules.helper_funcs.telethn import IMMUNE_USERS, telethn
+from JarvisRobot import DRAGONS
 from telethon.tl.types import ChannelParticipantsAdmins
 
 
