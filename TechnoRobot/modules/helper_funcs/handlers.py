@@ -1,6 +1,6 @@
-import TechnoRobot.modules.sql.blacklistusers_sql as sql
-from TechnoRobot import ALLOW_EXCL
-from TechnoRobot import DEV_USERS, DRAGONS, DEMONS, TIGERS, WOLVES
+import JarvisRobot.modules.sql.blacklistusers_sql as sql
+from JarvisRobot import ALLOW_EXCL
+from JarvisRobot import DEV_USERS, DRAGONS, DEMONS, TIGERS, WOLVES
 
 from telegram import Update
 from telegram.ext import CommandHandler, MessageHandler, RegexHandler, Filters
