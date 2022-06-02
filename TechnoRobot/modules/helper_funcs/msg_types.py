@@ -1,6 +1,6 @@
 from enum import IntEnum, unique
 
-from TechnoRobot.modules.helper_funcs.string_handling import button_markdown_parser
+from JarvisRobot.modules.helper_funcs.string_handling import button_markdown_parser
 from telegram import Message
 
 
