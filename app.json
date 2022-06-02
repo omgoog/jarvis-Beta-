@@ -1,6 +1,6 @@
 {
-      "name": "TechnoRobot",
-      "description": "An Anime Theme Telegram group management bot.",
+      "name": "JarvisRobot",
+      "description": "An Anime Theme Telegram group management bot. By @lx575",
       "keywords": [
          "telegram",
          "anime",
@@ -11,7 +11,7 @@
     
    "logo":    "https://telegra.ph/file/c9be9d4dd83cfbbe5d473.jpg",
 
-   "repository": "https://github.com/Team-techno/TechnoRobot",
+   "repository": "https://github.com/lx574/J.A.R.V.I.C",
    "addons": [
           {
          "options": {
