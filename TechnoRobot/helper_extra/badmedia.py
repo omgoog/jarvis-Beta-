@@ -1,4 +1,4 @@
-from TechnoRobot import telethn as tbot
+from JarvisRobot import telethn as tbot
 import requests
 import time
 
