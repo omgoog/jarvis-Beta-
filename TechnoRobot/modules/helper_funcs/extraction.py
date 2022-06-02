@@ -1,6 +1,6 @@
 from typing import List, Optional
-from TechnoRobot import LOGGER
-from TechnoRobot.modules.users import get_user_id
+from JarvisRobot import LOGGER
+from JarvisRobot.modules.users import get_user_id
 from telegram import Message, MessageEntity
 from telegram.error import BadRequest
 
