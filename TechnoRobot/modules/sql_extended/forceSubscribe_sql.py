@@ -1,5 +1,5 @@
 from sqlalchemy import Column, String, Numeric, Boolean
-from TechnoRobot.modules.sql import BASE, SESSION
+from JarvisRobot.modules.sql import BASE, SESSION
 
 
 class forceSubscribe(BASE):
