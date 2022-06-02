@@ -74,7 +74,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-Hey there! My name is JARVIC.
+Hey there! My name is JARVIS.
 I'm a modular group management bot with a few fun extras! Have a look at the following for an idea of some of the things I can help you with.
 """
 
@@ -92,10 +92,12 @@ buttons = [
 
 
 HELP_STRINGS = """
-`ʜɪ.. ɪ'ᴍ` Techno [🙋‍♀️](https://telegra.ph/file/3a786b98332c5ef9ce572.jpg)
-`ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴꜱ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴏᴄᴜᴍᴇɴᴛᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ꜱᴘᴇᴄɪꜰɪᴄ ᴍᴏᴅᴜʟᴇꜱ..`"""
+`Hello there, I'm` JARIVIS[.](https://telegra.ph/file/3a786b98332c5ef9ce572.jpg)
+`A powerful group management bot.
+To make me functional, make sure that I have enough rights in your group.
+Helpful commands:`"""
 
-techno_IMG = "https://telegra.ph/file/e7ee7ec05a191d9232904.jpg"
+Jarvis_IMG = "https://telegra.ph/file/db9c2c0e26c8cd27c3e33.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
  You can support the project via [Paypal](#) or by contacting @itsmelegend\
@@ -210,7 +212,7 @@ def start(update: Update, context: CallbackContext):
             )
     else:
         update.effective_message.reply_photo(
-          techno_IMG, caption= "I'm awake already!\n<b>Haven't slept since:</b> <code>{}</code>".format(
+          Jarvis_IMG, caption= "I'm awake already!\n<b>Haven't slept since:</b> <code>{}</code>".format(
                 uptime
             ),
             parse_mode=ParseMode.HTML,
