@@ -1,7 +1,7 @@
 import threading
 from typing import Union
 
-from TechnoRobot.modules.sql import BASE, SESSION
+from JarvisRobot.modules.sql import BASE, SESSION
 from sqlalchemy import Boolean, Column, BigInteger, String
 
 
