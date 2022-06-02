@@ -2,7 +2,7 @@ import threading
 
 from sqlalchemy import func, distinct, Column, String, UnicodeText, BigInteger
 
-from TechnoRobot.modules.sql import SESSION, BASE
+from JarvisRobot.modules.sql import SESSION, BASE
 
 
 class BlackListFilters(BASE):
