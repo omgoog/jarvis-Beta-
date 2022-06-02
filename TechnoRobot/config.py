@@ -4,7 +4,7 @@ import sys
 import yaml
 from envparse import env
 
-from TechnoRobot.utils.logger import log
+from JarvisRobot.utils.logger import log
 
 DEFAULTS = {
     "LOAD_MODULES": True,
