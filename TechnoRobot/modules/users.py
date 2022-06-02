@@ -11,10 +11,10 @@ from telegram.ext import (
     run_async,
 )
 
-import TechnoRobot.modules.sql.users_sql as sql
-from TechnoRobot import DEV_USERS, LOGGER, OWNER_ID, dispatcher
-from TechnoRobot.modules.helper_funcs.chat_status import dev_plus, sudo_plus
-from TechnoRobot.modules.sql.users_sql import get_all_users
+import JarvisRobot.modules.sql.users_sql as sql
+from JarvisRobot import DEV_USERS, LOGGER, OWNER_ID, dispatcher
+from JarvisRobot.modules.helper_funcs.chat_status import dev_plus, sudo_plus
+from JarvisRobot.modules.sql.users_sql import get_all_users
 
 USERS_GROUP = 4
 CHAT_GROUP = 5
