@@ -9,8 +9,8 @@
 
 from pyrogram import filters
 
-from TechnoRobot.pyrogramee.pluginshelper import admins_only, get_text
-from TechnoRobot import pbot
+from JarvisRobot.pyrogramee.pluginshelper import admins_only, get_text
+from JarvisRobot import pbot
 
 
 @pbot.on_message(filters.command("tagall") & ~filters.edited & ~filters.bot)
