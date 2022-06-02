@@ -89,17 +89,13 @@ I have lots of handy features such as:
 
 buttons = [
     [
+        InlineKeyboardButton(text="🙋‍♂ info & About", callback_data="amelia_"),
         InlineKeyboardButton(
-            text="➕️ ᴀᴅᴅ Techno ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕️", url="t.me/Techno_x_robot?startgroup=true"),
-    ],
-    [
-        InlineKeyboardButton(text="ᴀʙᴏᴜᴛ", callback_data="amelia_"),
-        InlineKeyboardButton(
-            text="ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"
+            text="🛠 Updates Channel", url=f"https://t.me/kd_botz"
         ),
     ],
     [
-        InlineKeyboardButton(text="ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅꜱ❔", callback_data="help_back"),
+        InlineKeyboardButton(text="❔  Commands Help", callback_data="help_back"),
     ],
 ]
 
