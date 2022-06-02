@@ -13,7 +13,7 @@ from telegram.ext.dispatcher import run_async
 from telegram.error import BadRequest
 from telegram.utils.helpers import escape_markdown, mention_html
 
-from TechnoRobot import (
+from JarvisRobot import (
     DEV_USERS,
     OWNER_ID,
     DRAGONS,
@@ -24,15 +24,15 @@ from TechnoRobot import (
     dispatcher,
     sw,
 )
-from TechnoRobot.__main__ import STATS, TOKEN, USER_INFO
-import TechnoRobot.modules.sql.userinfo_sql as sql
-from TechnoRobot.modules.disable import DisableAbleCommandHandler
-from TechnoRobot.modules.sql.global_bans_sql import is_user_gbanned
-from TechnoRobot.modules.sql.afk_sql import is_afk, check_afk_status
-from TechnoRobot.modules.sql.users_sql import get_user_num_chats
-from TechnoRobot.modules.helper_funcs.chat_status import sudo_plus
-from TechnoRobot.modules.helper_funcs.extraction import extract_user
-from TechnoRobot import telethn as YoneTelethonClient, TIGERS, DRAGONS, DEMONS
+from JarvisRobot.__main__ import STATS, TOKEN, USER_INFO
+import JarvisRobot.modules.sql.userinfo_sql as sql
+from JarvisRobot.modules.disable import DisableAbleCommandHandler
+from JarvisRobot.modules.sql.global_bans_sql import is_user_gbanned
+from JarvisRobot.modules.sql.afk_sql import is_afk, check_afk_status
+from JarvisRobot.modules.sql.users_sql import get_user_num_chats
+from JarvisRobot.modules.helper_funcs.chat_status import sudo_plus
+from JarvisRobot.modules.helper_funcs.extraction import extract_user
+from JarvisRobot import telethn as YoneTelethonClient, TIGERS, DRAGONS, DEMONS
 
 
 def no_by_per(totalhp, percentage):
