@@ -1,7 +1,7 @@
 import threading
 
-from TechnoRobot import dispatcher
-from TechnoRobot.modules.sql import BASE, SESSION
+from JarvisRobot import dispatcher
+from JarvisRobot.modules.sql import BASE, SESSION
 from sqlalchemy import Boolean, Column, BigInteger, String, UnicodeText
 from telegram.error import BadRequest, Unauthorized
 
