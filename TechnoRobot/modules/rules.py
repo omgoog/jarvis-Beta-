@@ -1,9 +1,9 @@
 from typing import Optional
 
-import TechnoRobot.modules.sql.rules_sql as sql
-from TechnoRobot import dispatcher
-from TechnoRobot.modules.helper_funcs.chat_status import user_admin
-from TechnoRobot.modules.helper_funcs.string_handling import markdown_parser
+import JarvisRobot.modules.sql.rules_sql as sql
+from JarvisRobot import dispatcher
+from JarvisRobot.modules.helper_funcs.chat_status import user_admin
+from JarvisRobot.modules.helper_funcs.string_handling import markdown_parser
 from telegram import (
     InlineKeyboardButton,
     InlineKeyboardMarkup,
