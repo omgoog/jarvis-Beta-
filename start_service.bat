@@ -27,5 +27,5 @@ if '%errorlevel%' NEQ '0' (
 :--------------------------------------
 :: your commands begin from this point.
 :: stops the service and then starts it
-net stop TechnoRobot
-net start TechnoRobot
+net stop JarvisRobot
+net start JarvisRobot
