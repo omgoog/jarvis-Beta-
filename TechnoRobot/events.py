@@ -8,8 +8,8 @@ from pathlib import Path
 from telethon import events
 
 from pymongo import MongoClient
-from TechnoRobot import MONGO_DB_URI
-from TechnoRobot import telethn
+from JarvisRobot import MONGO_DB_URI
+from JarvisRobot import telethn
 
 client = MongoClient()
 client = MongoClient(MONGO_DB_URI)
@@ -184,30 +184,30 @@ def load_module(shortname):
         import importlib
         import YoneRobot.events
 
-        path = Path(f"TechnoRobot/modules/{shortname}.py")
-        name = "TechnoRobot.modules.{}".format(shortname)
+        path = Path(f"JarvisRobot/modules/{shortname}.py")
+        name = "JarvisRobot.modules.{}".format(shortname)
         spec = importlib.util.spec_from_file_location(name, path)
         mod = importlib.util.module_from_spec(spec)
         spec.loader.exec_module(mod)
         print("Successfully imported " + shortname)
     else:
         import importlib
-        import TechnoRobot.events
+        import JarvisRobot.events
 
-        path = Path(f"TechnoRobot/modules/{shortname}.py")
-        name = "TechnoRobot.modules.{}".format(shortname)
+        path = Path(f"JarvisRobot/modules/{shortname}.py")
+        name = "JarvisRobot.modules.{}".format(shortname)
         spec = importlib.util.spec_from_file_location(name, path)
         mod = importlib.util.module_from_spec(spec)
         mod.register = register
-        mod.TechnoRobot = TechnoRobot
+        mod.JarvisRobot = JarvisRobot
         mod.tbot = telethn
         mod.logger = logging.getLogger(shortname)
         spec.loader.exec_module(mod)
-        sys.modules["TechnoRobot.modules." + shortname] = mod
+        sys.modules["JarvisRobot.modules." + shortname] = mod
         print("Successfully imported " + shortname)
 
 
-path = "TechnoRobot/modules/*.py"
+path = "JarvisRobot/modules/*.py"
 files = glob.glob(path)
 for name in files:
     with open(name) as f:
