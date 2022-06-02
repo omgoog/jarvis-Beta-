@@ -21,8 +21,8 @@ from odmantic import AIOEngine
 from pymongo import MongoClient
 from pymongo.errors import ServerSelectionTimeoutError
 
-from TechnoRobot import log
-from TechnoRobot.config import get_int_key, get_str_key
+from JarvisRobot import log
+from JarvisRobot.config import get_int_key, get_str_key
 
 MONGO_URI = get_str_key("MONGO_URI")
 MONGO_PORT = get_int_key("MONGO_PORT")
