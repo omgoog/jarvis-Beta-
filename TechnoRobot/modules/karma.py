@@ -1,8 +1,8 @@
-from TechnoRobot import pbot as app
-from TechnoRobot.utils.errors import capture_err
-from TechnoRobot.utils.dbfunc import (update_karma, get_karma, get_karmas,
+from JarvisRobot import pbot as app
+from JarvisRobot.utils.errors import capture_err
+from JarvisRobot.utils.dbfunc import (update_karma, get_karma, get_karmas,
                                    int_to_alpha, alpha_to_int)
-from TechnoRobot.utils.filter_groups import karma_positive_group, karma_negative_group
+from JarvisRobot.utils.filter_groups import karma_positive_group, karma_negative_group
 from pyrogram import filters
 
 
