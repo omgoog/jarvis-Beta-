@@ -1,4 +1,4 @@
-from TechnoRobot.mongo import db
+from JarvisRobot.mongo import db
 from typing import Dict, List, Union
 
 
