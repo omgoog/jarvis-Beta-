@@ -64,12 +64,12 @@ RUN apt update && apt upgrade -y && \
 # Pypi package Repo upgrade
 RUN pip3 install --upgrade pip setuptools
 
-# Copy Python Requirements to /root/TechnoRobot 
-RUN git clone -b shiken https://github.com/Team-techno/TechnoRobot /root/TechnoRobot
-WORKDIR /root/TechnoRobot
+# Copy Python Requirements to /root/JarvisRobot 
+RUN git clone -b shiken https://github.com/Team-techno/JarvisRobot /root/JarvisRobot
+WORKDIR /root/JarvisRobot
 
-#Copy config file to /root/TechnoRobot/TechnoRobot
-COPY ./AsunaRobot/sample_config.py ./TechnoRobot/config.py* /root/TechnoRobot/TechnoRobot/
+#Copy config file to /root/JarvisRobot/JarvisRobot
+COPY ./AsunaRobot/sample_config.py ./JarvisRobot/config.py* /root/JarvisRobot/JarvisRobot/
 
 ENV PATH="/home/bot/bin:$PATH"
 
@@ -77,4 +77,4 @@ ENV PATH="/home/bot/bin:$PATH"
 RUN pip3 install -U -r requirements.txt
 
 # Starting Worker
-CMD ["python3","-m","TechnoRobot"]
+CMD ["python3","-m","JarvisRobot"]
