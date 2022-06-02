@@ -3,7 +3,7 @@ from functools import wraps
 
 from telegram.ext import CallbackContext
 
-from TechnoRobot.modules.helper_funcs.misc import is_module_loaded
+from JarvisRobot.modules.helper_funcs.misc import is_module_loaded
 
 FILENAME = __name__.rsplit(".", 1)[-1]
 
@@ -13,9 +13,9 @@ if is_module_loaded(FILENAME):
     from telegram.ext import CommandHandler, JobQueue, run_async
     from telegram.utils.helpers import escape_markdown
 
-    from TechnoRobot import EVENT_LOGS, LOGGER, dispatcher
-    from TechnoRobot.modules.helper_funcs.chat_status import user_admin
-    from TechnoRobot.modules.sql import log_channel_sql as sql
+    from JarvisRobot import EVENT_LOGS, LOGGER, dispatcher
+    from JarvisRobot.modules.helper_funcs.chat_status import user_admin
+    from JarvisRobot.modules.sql import log_channel_sql as sql
 
     def loggable(func):
         @wraps(func)
