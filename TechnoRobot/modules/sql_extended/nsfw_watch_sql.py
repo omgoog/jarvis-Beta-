@@ -1,6 +1,6 @@
 from sqlalchemy import Column, String
 
-from TechnoRobot.modules.sql import BASE, SESSION
+from JarvisRobot.modules.sql import BASE, SESSION
 
 
 class Nsfwatch(BASE):
